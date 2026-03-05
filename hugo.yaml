@@ -18,13 +18,13 @@ markup:
 
 menu:
   main:
-    - name: Blog
+    - name: 博客
       pageRef: /blog
       weight: 1
-    - name: About
+    - name: 关于
       pageRef: /about
       weight: 2
-    - name: Search
+    - name: 搜索
       weight: 3
       params:
         type: search
@@ -33,13 +33,6 @@ menu:
       url: "https://github.com/RealityVF/realityvf.github.io"
       params:
         icon: github
-
-
-defaultContentLanguage: zh-cn
-languages:
-  zh-cn:
-    languageName: 简体中文
-    languageCode: zh-CN
 
 enableGitInfo: true
 
