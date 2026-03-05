@@ -38,7 +38,7 @@ enableGitInfo: true
 
 params:
   displayUpdatedDate: true
-  dateFormat: "2006/01/02 15:04"
+  dateFormat: "2006年1月2日 15:04"
 
   navbar:
     displayTitle: true
@@ -57,6 +57,3 @@ params:
       enable: true
       # hover | always
       display: hover
-
-  mainSections:
-    - blog
