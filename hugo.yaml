@@ -34,8 +34,14 @@ menu:
       params:
         icon: github
 
+
+defaultContentLanguage: zh-cn
+languages:
+  zh-cn:
+    languageName: 简体中文
+    languageCode: zh-CN
+
 enableGitInfo: true
-defaultContentLanguage: zh-CN
 
 params:
   displayUpdatedDate: true
