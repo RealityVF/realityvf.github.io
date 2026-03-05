@@ -35,6 +35,7 @@ menu:
         icon: github
 
 enableGitInfo: true
+defaultContentLanguage: zh-CN
 
 params:
   displayUpdatedDate: true
