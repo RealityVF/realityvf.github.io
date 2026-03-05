@@ -38,7 +38,7 @@ enableGitInfo: true
 
 params:
   displayUpdatedDate: true
-  dateFormat: "2026年3月5日"
+  dateFormat: "2006/01/02 15:04"
 
   navbar:
     displayTitle: true
