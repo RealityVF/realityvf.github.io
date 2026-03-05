@@ -51,14 +51,12 @@ params:
   editURL:
     enable: true
     base: "https://github.com/RealityVF/realityvf.github.io/tree/main/content"
-  
-  theme:
-    # light | dark | system
-    default: system
-    displayToggle: true
 
   highlight:
     copy:
       enable: true
       # hover | always
       display: hover
+
+  mainSections:
+    - blog
