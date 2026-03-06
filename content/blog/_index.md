@@ -1,6 +1,3 @@
 ---
-title: Blog
-cascade:
-    params:
-        reversePagination: false
+title: 博客
 ---

@@ -1,15 +1,11 @@
 ---
-title: My Site
+title: 主页
 toc: false
 ---
 
-This is the landing page.
-
-## Explore
-
 {{< cards >}}
-  {{< card link="blog" title="blog" icon="book-open" >}}
-  {{< card link="about" title="About" icon="user" >}}
+  {{< card link="blog" title="博客" icon="book-open" >}}
+  {{< card link="about" title="关于" icon="user" >}}
 {{< /cards >}}
 
 ## Documentation

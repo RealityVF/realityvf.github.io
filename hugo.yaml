@@ -1,5 +1,5 @@
 # Hugo configuration file
-title: My Site
+title: RealityVF's Blog
 
 # import hextra as module
 module:
@@ -18,18 +18,21 @@ markup:
 
 menu:
   main:
+    - name: 首页
+      pageRef: /
+      weight: 1
     - name: 博客
       pageRef: /blog
-      weight: 1
+      weight: 2
     - name: 关于
       pageRef: /about
-      weight: 2
-    - name: 搜索
       weight: 3
+    - name: 搜索
+      weight: 4
       params:
         type: search
     - name: GitHub
-      weight: 4
+      weight: 5
       url: "https://github.com/RealityVF/realityvf.github.io"
       params:
         icon: github
@@ -37,8 +40,13 @@ menu:
 enableGitInfo: true
 
 params:
+  # 显示最后修改日期
   displayUpdatedDate: true
-  dateFormat: "2006年1月2日 15:04"
+  dateFormat: "2006年1月2日"
+  # 显示最后修改的作者
+  displayUpdatedAuthor: true
+
+
 
   navbar:
     displayTitle: true
@@ -47,10 +55,6 @@ params:
   footer:
     displayCopyright: false
     displayPoweredBy: true
-
-  editURL:
-    enable: true
-    base: "https://github.com/RealityVF/realityvf.github.io/tree/main/content"
 
   highlight:
     copy:

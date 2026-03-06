@@ -1,6 +1,7 @@
 ---
 title: 阿里云ECS安装Arch Linux
 date: 2026-03-05
+Lastmod: 2026-03-05
 ---
 
 学生优惠白嫖阿里云的2h2g的ECS发现阿里云公共镜像没有Arch Linux
@@ -10,6 +11,8 @@ date: 2026-03-05
 所以我打算自己利用ISO安装，搜索发现网上很多文章都是很多年前，决定自己写一个教程。（我的系统环境：Ubuntu 24.04 64位）
 
 <!--more-->
+
+{{% steps %}}
 
 ## 1. 备份！备份！备份！
 
@@ -171,6 +174,8 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 成功进入系统，输入root和刚刚设置的`root`密码，即可进入系统进行后继的配置
 ![](image-14.png)
+
+{{% /steps %}}
 
 ## 参考
 
