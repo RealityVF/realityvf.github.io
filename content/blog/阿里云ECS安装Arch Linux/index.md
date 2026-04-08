@@ -12,7 +12,7 @@ Lastmod: 2026-03-05
 
 <!--more-->
 
-{{% steps %}}
+
 
 ## 1. 备份！备份！备份！
 
@@ -175,7 +175,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 成功进入系统，输入root和刚刚设置的`root`密码，即可进入系统进行后继的配置
 ![](image-14.png)
 
-{{% /steps %}}
+
 
 ## 参考
 
