@@ -1,10 +1,12 @@
 # Hugo configuration file
 title: RealityVF's Blog
 
+
 # import hextra as module
 module:
   imports:
     - path: github.com/imfing/hextra
+
 
 markup:
   # allow raw html
@@ -15,6 +17,7 @@ markup:
   # enable hextra syntax highlight
   highlight:
     noClasses: false
+
 
 menu:
   main:
@@ -34,17 +37,8 @@ menu:
       params:
         icon: github
 
-enableGitInfo: true
 
 params:
-  # 显示最后修改日期
-  displayUpdatedDate: true
-  dateFormat: "2006年1月2日"
-  # 显示最后修改的作者
-  displayUpdatedAuthor: true
-
-
-
   navbar:
     displayTitle: true
     displayLogo: false
