@@ -1,7 +1,7 @@
 ---
 title: 阿里云ECS安装Arch Linux
 date: 2026-03-05
-Lastmod: 2026-03-05
+lastmod: 2026-04-08
 ---
 
 学生优惠白嫖阿里云的2h2g的ECS发现阿里云公共镜像没有Arch Linux

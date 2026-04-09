@@ -1,0 +1,24 @@
+#!/bin/bash
+# Pre-commit hook to automatically update lastmod in markdown files
+
+# 获取今天日期
+TODAY=$(date +%Y-%m-%d)
+
+# 获取暂存区中修改的 .md 文件
+git diff --cached --name-only --diff-filter=ACM | grep '\.md$' | while read -r file; do
+    # 只处理 content/ 目录下的文件
+    if [[ "$file" == content/* ]]; then
+        # 检查文件是否有 front matter (以 --- 开头)
+        if head -n 1 "$file" | grep -q '^---'; then
+            # 如果文件已有 lastmod 字段，更新它
+            if grep -q '^lastmod:' "$file"; then
+                sed -i "s/^lastmod: .*/lastmod: $TODAY/" "$file"
+                git add "$file"
+            else
+                # 如果没有 lastmod 字段，在 date 字段后添加
+                sed -i "/^date: .*/a lastmod: $TODAY" "$file"
+                git add "$file"
+            fi
+        fi
+    fi
+done
